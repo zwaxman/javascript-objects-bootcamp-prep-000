@@ -1,3 +1,7 @@
+var playlist = {
+  artist: 'song'
+}
+
 // it('defines an object called `playlist` containing at least one artist-song pair', () => {
 //     expect(typeof playlist).to.equal('object')
 //     expect(Object.keys(playlist).length).to.be.greaterThan(0)
