@@ -8,6 +8,7 @@ function updatePlaylist(playlist,artistName,songTitle){
 
 function removeFromPlaylist(playlist,artistName){
   delete playlist.artistName
+  return playlist
 }
 
 //   describe('updatePlaylist(playlist, artistName, songTitle)', () => {
